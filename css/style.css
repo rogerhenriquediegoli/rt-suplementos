@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+/*Cabeçalho*/
+header#cabecalho{
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    color: white;
+}
+
+figure.caixa-logo{
+    width: 386px;
+    margin: 0 auto;
+    position: relative;
+    top: 8px;
+}
+figure > img{
+    width: 140px;
+}
+figure.caixa-logo > figcaption{
+    font-size: 30pt;
+    float: right;
+    font-weight: 900;
+    line-height: 140px;
+}
+
+img.icn-barra{
+    width: 65px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+
+img.icn-carro{
+    width: 65px;
+    position: absolute; 
+    top: 35px;
+    right: 35px;
+}
+
+nav#nav-site{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -13px;
+}
+
+ul.itens-nav{
+    list-style: none;
+    display: flex;
+    width: 550px;
+}
+
+ul.itens-nav > li{
+    display: inline-block;
+}
+
+ul.itens-nav > li > a{
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    margin-left: 0px;
+    padding: 3px;
+    border-right: 1px solid #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+ul.itens-nav > li:hover a{
+    background-color: white;
+    color: #000;
+}
+li.dist{
+    margin-left: 30px;
+}
+
+
