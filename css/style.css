@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #dddddd;
+    background-color: #eeeeee;
 }
 
 /*Cabeçalho*/
@@ -71,9 +71,10 @@ ul.itens-nav > li > a{
     color: white;
     text-decoration: none;
     background-color: gray;
-    margin-left: 0px;
+    margin-left: -1px;
     padding: 3px;
     border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -83,6 +84,66 @@ ul.itens-nav > li:hover a{
 }
 li.dist{
     margin-left: 30px;
+}
+
+/*Campo pesquisa e contato*/
+div#box-1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 15px;
+}
+
+.campo-dig > img{
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: -45px;
+}
+
+.pesquisa{
+    border: none;
+    background-color: #aaaaaa;
+    padding: 15px;
+    width: 350px;
+    font-size: 13pt;
+}
+
+.pesquisa::placeholder{
+    color: #606060;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+.contato{
+    position: relative;
+    width: 300px;
+    left: 1220px;
+    text-align: center;
+}
+
+.contato > h2{
+    margin-bottom: 10px;
+}
+.contato > a{
+    text-decoration: none;
+    color: white;
+    background-color: #606060;
+    padding: 5px;
+    margin-left: -50px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.contato > img{
+    float: left;
+    width: 55px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+.contato > a:hover{
+    background-color: #888888;
+    color: #000;
 }
 
 
