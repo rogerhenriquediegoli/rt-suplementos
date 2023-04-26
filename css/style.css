@@ -14,76 +14,70 @@ body{
 /*Cabeçalho*/
 header#cabecalho{
     width: 100%;
-    height: 150px;
+    height: 156px;
     background-color: #000000;
     color: white;
 }
 
 figure.caixa-logo{
-    width: 386px;
+    width: 400px;
     margin: 0 auto;
     position: relative;
     top: 8px;
 }
 figure > img{
-    width: 140px;
+    width: 150px;
 }
-figure.caixa-logo > figcaption{
-    font-size: 30pt;
-    float: right;
-    font-weight: 900;
-    line-height: 140px;
+figure > img.letras-lg{
+    position: relative;
+    top: -30px;
+    left: -20px;
+    width: 230px;
 }
 
 img.icn-barra{
     width: 65px;
     position: absolute;
-    top: 35px;
+    top: 38px;
     left: 35px;
 }
 
 img.icn-carro{
     width: 65px;
     position: absolute; 
-    top: 35px;
+    top: 45px;
     right: 35px;
 }
 
-nav#nav-site{
-    width: 550px;
+/*Menu de navegação do Site*/
+#box-menu{
+    width: 570px;
+    padding: 10px;
     margin: 0 auto;
-    text-align: center;
-    position: relative;
-    top: -13px;
 }
 
-ul.itens-nav{
+ul#lista-itens{
     list-style: none;
-    display: flex;
-    width: 550px;
 }
 
-ul.itens-nav > li{
+ul#lista-itens > li.area-cont-menu{
+    margin-left: 20px;
+    opacity: 0;
+}
+
+ul#lista-itens > li{
     display: inline-block;
+    margin: -3px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 3px;
+    background-color: #606060;
 }
 
-ul.itens-nav > li > a{
+ul#lista-itens > li > a{
     color: white;
     text-decoration: none;
-    background-color: gray;
-    margin-left: -1px;
-    padding: 3px;
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
-    transition: background-color 0.5s, color 0.5s;
-}
-
-ul.itens-nav > li:hover a{
-    background-color: white;
-    color: #000;
-}
-li.dist{
-    margin-left: 30px;
+    font-size: 14pt;
 }
 
 /*Campo pesquisa e contato*/
@@ -116,9 +110,9 @@ div#box-1{
 }
 
 .contato{
-    position: relative;
+    position: absolute;
     width: 300px;
-    left: 1220px;
+    right: -55px;
     text-align: center;
 }
 
@@ -145,5 +139,7 @@ div#box-1{
     background-color: #888888;
     color: #000;
 }
+
+/*Campo seleção fts site*/
 
 
