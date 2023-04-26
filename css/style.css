@@ -9,6 +9,7 @@
 
 body{
     background-color: #eeeeee;
+    overflow-x: hidden;
 }
 
 /*Cabeçalho*/
@@ -141,5 +142,42 @@ div#box-1{
 }
 
 /*Campo seleção fts site*/
+section#setor-2, #setor-3{
+    padding: 15px;
+}
+#box-album-fts > img{
+    height: 280px;
+    width: 100%;
+    margin: 0 auto;
+}
+#nav-btns-colecao{
+    margin-top: -10px;
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+}
+
+#organizacao{
+    margin: 0 auto;
+}
+
+ul#fts-colecao{
+    list-style: none;
+}
+
+#fts-colecao > li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#fts-colecao > li > button{
+    vertical-align: -7px;
+    border: none;
+    width: 90px;
+    height: 8px;
+    background-color: #888888;
+    initial-value: "";
+}
+
 
 
