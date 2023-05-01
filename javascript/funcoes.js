@@ -1,3 +1,3 @@
 function mudaFt(caminho){
-    document.getElementById();
+    document.getElementById('imagens-colecao').src = caminho;
 }

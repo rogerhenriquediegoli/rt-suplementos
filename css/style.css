@@ -52,7 +52,7 @@ img.icn-carro{
 
 /*Menu de navegação do Site*/
 #box-menu{
-    width: 570px;
+    width: 600px;
     padding: 10px;
     margin: 0 auto;
 }
@@ -68,7 +68,7 @@ ul#lista-itens > li.area-cont-menu{
 
 ul#lista-itens > li{
     display: inline-block;
-    margin: -3px;
+    margin: -4px;
     border-right: 1px solid white;
     border-left: 1px solid white;
     padding: 3px;
@@ -146,7 +146,7 @@ section#setor-2, #setor-3{
     padding: 15px;
 }
 #box-album-fts > img{
-    height: 280px;
+    height: 35vh;
     width: 100%;
     margin: 0 auto;
 }
@@ -163,11 +163,17 @@ section#setor-2, #setor-3{
 
 ul#fts-colecao{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+
 }
 
 #fts-colecao > li{
     display: inline-block;
     margin-left: 100px;
+
 }
 
 #fts-colecao > li > button{
@@ -176,8 +182,40 @@ ul#fts-colecao{
     width: 90px;
     height: 8px;
     background-color: #888888;
-    initial-value: "";
 }
 
+#fts-colecao > li > button:hover{
+    cursor: pointer;
+    background-color: #606060;
+}
 
+#fts-colecao > li > button:focus{
+    background-color: #606060;
+}
 
+/*Campo seleção itens compra*/
+ul#compras{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#compras > li{
+    width: 400px;
+    height: 260px;
+    border: 1px solid black;
+    margin-left: 15px;
+}
+
+h3{
+    color: white;
+    background-color: #000;
+    padding: 5px;
+}
+#descricao-cont{
+    width: 200px;
+    position: relative;
+    top:-150px;
+    left: 150px;
+}
